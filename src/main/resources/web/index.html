@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Module - Web Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Template Module Dashboard</h1>
+        <p>Dit is een voorbeeldpagina voor je module's web interface</p>
+        
+        <div class="info-box">
+            <h2>Quick Start</h2>
+            <ul>
+                <li>Pas deze HTML aan naar je wensen</li>
+                <li>Zet CSS in <code>style.css</code></li>
+                <li>JavaScript logica in <code>script.js</code></li>
+                <li>Use <code>/api/modules/</code> endpoints voor data</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <h3>API Aanroepen Voorbeeld</h3>
+            <pre><code>fetch('/api/modules/myawesomemodule/status')
+    .then(response => response.json())
+    .then(data => console.log(data))</code></pre>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

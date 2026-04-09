@@ -1,0 +1,20 @@
+id: template
+name: Template Module
+version: 1.0.0
+main: org.wannes.TemplateModule
+api-version: 1
+description: "Dit is een template module - pas de velden aan voor je eigen module"
+
+# Website/Web UI configuratie (optioneel)
+website:
+  enabled: false                    # Set to true als je een web interface wilt
+  entry: web/index.html             # Entrypoint van je web interface
+  title: "Template Module"           # Titel in de web UI
+
+# Dependencies (optioneel) - andere modules waarvan deze module afhangt
+# dependencies:
+#   - module-id-1
+#   - module-id-2
+
+# Configuratie categorie (optioneel)
+# category: utilities               # Of: gameplay, admin-tools, data-storage, etc
