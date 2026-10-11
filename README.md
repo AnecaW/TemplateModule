@@ -342,3 +342,7 @@ Kijk naar voorbeeldmodules:
 - Kijk naar PlugModCore source code voor web API endpoints
 
 Veel succes met je module! 🎉
+
+## Shared product theme
+
+The template loads `/web/design-system.css` before its local layout stylesheet. Reuse core design tokens and components rather than copying a theme. See [DESIGN_SYSTEM.md](../../DESIGN_SYSTEM.md).

@@ -11,7 +11,7 @@
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><maven.compiler.release>21</maven.compiler.release>
     </properties>
 
     <repositories>
@@ -27,6 +27,7 @@
             <groupId>org.wannes</groupId>
             <artifactId>plugmodcore-api</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- Paper / Bukkit API - optional, alleen als je Minecraft server features wilt gebruiken -->
@@ -51,3 +52,5 @@
         </plugins>
     </build>
 </project>
+
+
